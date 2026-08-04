@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Mohnish Shandilya</h1>
+  <h1 align="center">Hi 👋, I'm Mohnish Shandilya</h1>
 
 <h3 align="center">
 AI/ML Engineer • Deep Learning • Computer Vision • Generative AI
@@ -176,12 +176,6 @@ Become a Production-Ready AI/ML Engineer.
 <img width="48%" src="https://github-readme-stats.vercel.app/api?username=mohnish4code&show_icons=true&theme=tokyonight"/>
 
 <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=mohnish4code&theme=tokyonight"/>
-
-</p>
-
-<p align="center">
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohnish4code&layout=compact&theme=tokyonight"/>
 
 </p>
 
