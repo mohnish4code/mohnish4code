@@ -197,16 +197,6 @@ YOUR_RESUME_LINK
 
 ---
 
-# 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=mohnish4code&theme=algolia&column=4&margin-w=15&margin-h=15"/>
-
-</p>
-
----
-
 # 💡 Quote
 
 <p align="center">
