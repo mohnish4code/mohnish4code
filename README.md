@@ -161,11 +161,11 @@ Become a Production-Ready AI/ML Engineer.
 
 ### 👨‍💻 GitHub
 
-https://github.com/mohnish4code
+[Mohnish's_Github][https://github.com/mohnish4code]
 
 ### 📄 Resume
 
-YOUR_RESUME_LINK
+[RESUME_LINK](https://drive.google.com/file/d/1DsHpyQAS1tyPk3aPV2D_sdCL8lI1z3lC/view?usp=sharing)
 
 ---
 
@@ -207,24 +207,6 @@ YOUR_RESUME_LINK
 it's about augmenting human potential."
 
 </i>
-
-</p>
-
----
-
-<p align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohnish4code&theme=tokyonight"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohnish4code&theme=tokyonight"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mohnish4code&theme=tokyonight"/>
-
-</p>
 
 <p align="center">
 
