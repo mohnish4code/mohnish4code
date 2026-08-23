@@ -169,18 +169,6 @@ Become a Production-Ready AI/ML Engineer.
 
 ---
 
-# 📊 GitHub Statistics
-
-<p align="center">
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=mohnish4code&show_icons=true&theme=tokyonight"/>
-
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=mohnish4code&theme=tokyonight"/>
-
-</p>
-
----
-
 # 📈 Contribution Graph
 
 <p align="center">
