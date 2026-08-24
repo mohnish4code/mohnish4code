@@ -1,7 +1,7 @@
   <h1 align="center">Hi 👋, I'm Mohnish Shandilya</h1>
 
 <h3 align="center">
-AI/ML Engineer • Deep Learning • Computer Vision • Generative AI
+AI/ML Engineer • Deep Learning • Machine Learning • Generative AI
 </h3>
 
 <p align="center">
