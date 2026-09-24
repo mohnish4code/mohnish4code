@@ -169,16 +169,6 @@ Become a Production-Ready AI/ML Engineer.
 
 ---
 
-# 📈 Contribution Graph
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mohnish4code&theme=tokyo-night"/>
-
-</p>
-
----
-
 # 💡 Quote
 
 <p align="center">
