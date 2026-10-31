@@ -146,24 +146,6 @@ class Mohnish:
 
 ---
 
-<!-- ===================== STATS ===================== -->
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mohnish4code&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" alt="stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohnish4code&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top languages"/>
-</p>
-
-<details>
-<summary><b>🏆 GitHub Trophies</b> &nbsp;(click to view)</summary>
-<br/>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mohnish4code&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=6" alt="trophies"/>
-</p>
-</details>
-
----
-
 <!-- ===================== CERTIFICATIONS ===================== -->
 <details>
 <summary><h2>🏅 Certifications</h2></summary>
