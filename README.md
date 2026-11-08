@@ -45,15 +45,6 @@ class Mohnish:
 <!-- ===================== PROJECTS ===================== -->
 ## 🚀 Featured Projects
 
-<p align="center">
-  <a href="https://github.com/mohnish4code/Vehicle-Detection-System">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohnish4code&repo=Vehicle-Detection-System&theme=tokyonight&hide_border=true" alt="Vehicle Detection"/>
-  </a>
-  <a href="https://github.com/mohnish4code/Multi-Module-Stock-Prediction">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohnish4code&repo=Multi-Module-Stock-Prediction&theme=tokyonight&hide_border=true" alt="Stock Prediction"/>
-  </a>
-</p>
-
 <details open>
 <summary><b>🚗 Vehicle Number Plate Detection System</b> &nbsp;(click to expand / collapse)</summary>
 <br/>
