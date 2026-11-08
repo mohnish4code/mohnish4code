@@ -13,7 +13,8 @@
   <a href="https://www.linkedin.com/in/mohnish2004" title="Connect on LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:mohnishshandilya.3000@gmail.com" title="Send me an email"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://www.kaggle.com/mohnishshandilya" title="My Kaggle profile"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/></a>
-  <a href="https://drive.google.com/file/d/1DsHpyQAS1tyPk3aPV2D_sdCL8lI1z3lC/view?usp=sharing" title="View my resume"><img src="https://img.shields.io/badge/Resume-000000?style=for-the-badge&logo=googledrive&logoColor=white"/></a>
+  <a href="https://mohnish4code.github.io" title="My portfolio"><img src="https://img.shields.io/badge/Portfolio-3DDC97?style=for-the-badge&logo=googlechrome&logoColor=black"/></a>
+  <a href="https://mohnish4code.github.io/resume.pdf" title="View my resume"><img src="https://img.shields.io/badge/Resume-000000?style=for-the-badge&logo=readthedocs&logoColor=white"/></a>
   <img src="https://komarev.com/ghpvc/?username=mohnish4code&label=Profile%20Views&color=00BFFF&style=for-the-badge" alt="profile views"/>
 </p>
 
@@ -29,7 +30,7 @@ class Mohnish:
     def __init__(self):
         self.role       = "Machine Learning Engineer"
         self.education  = "B.Tech ECE @ MIT ADT University, Pune (2023 - 2027)"
-        self.building   = "System Log Anomaly Detection with Transformers"
+        self.portfolio  = "https://mohnish4code.github.io"
         self.learning   = ["MLOps", "FastAPI", "Docker", "GitHub Actions", "MLflow"]
         self.interests  = ["Computer Vision", "Anomaly Detection", "Time-Series"]
         self.email      = "mohnishshandilya.3000@gmail.com"
@@ -49,16 +50,18 @@ class Mohnish:
 <summary><b>🚗 Vehicle Number Plate Detection System</b> &nbsp;(click to expand / collapse)</summary>
 <br/>
 
-> Detects licence plates with a custom-trained **YOLOv8n** model, reads them with **EasyOCR** using four OpenCV preprocessing variants, and logs every vehicle with a timestamp to **Google Sheets** from a web app with upload and camera input.
+> Detects Indian number plates with a custom-trained **YOLOv8n** model, reads them with **PaddleOCR (PP-OCRv4)** and a plate-aware decoder that only accepts valid Indian formats (including BH-series and two-row plates), and logs confirmed plates to **Google Sheets**. Served by **FastAPI** with a mobile-friendly **React** app.
 
-| 🎯 Detector mAP@50 | 📐 mAP@50-95 | 🔤 OCR | ☁️ Logging |
+| 🎯 Detector mAP@50 | ✅ Exact reads (held-out) | 🔤 Character error rate | 🚫 Wrong reads auto-accepted |
 |:---:|:---:|:---:|:---:|
-| **0.994** | **0.872** | EasyOCR + 4 variants | Google Sheets API |
+| **0.994** | **85.3%** (up from 54.4%) | **6.3%** | **0 / 68** |
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-111F68?style=flat-square)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 👉 [**View repository**](https://github.com/mohnish4code/Vehicle-Detection-System)
 </details>
@@ -67,34 +70,42 @@ class Mohnish:
 <summary><b>📈 Multi-Module Stock Prediction System</b> &nbsp;(click to expand)</summary>
 <br/>
 
-> Fuses an **LSTM forecast**, **technical analysis** and **news sentiment** through a confidence and risk engine into one **BUY / HOLD / SELL** decision.
+> **AlphaStream** combines a forecasting model, **technical rules** and live **FinBERT news sentiment** in a decision engine that outputs one **BUY / HOLD / SELL** call for each of **10 NSE large caps**.
 
-- 📊 Per-ticker models for **10 NSE large caps** on **21 stationary features**
-- 🔒 Chronological train / validation / test splits to prevent data leakage
-- 🧪 Benchmarked against always-up and persistence baselines, covered by **12 Pytest suites**
+- 📊 Compared **ARIMA, XGBoost, LSTM and Transformer** models (with and without news); **XGBoost + FinBERT** won and is served
+- 🔒 Leakage-free walk-forward backtest: 6 one-year folds, **1,512 trading days** per stock, 5-row embargo, against 4 baselines
+- 🧾 Honest result: no model had a reliable next-day edge, and buy-and-hold beat them all. The README explains why
+- 🧪 FastAPI + React + TypeScript, MLflow, Optuna, Docker, GitHub Actions and **79 pytest tests**
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-1A6E9A?style=flat-square)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 
 👉 [**View repository**](https://github.com/mohnish4code/Multi-Module-Stock-Prediction)
 </details>
 
 <details>
-<summary><b>🛡️ System Log Anomaly Detection</b> &nbsp;<code>🚧 in progress</code></summary>
+<summary><b>🛡️ System Log Anomaly Detection</b> &nbsp;(click to expand)</summary>
 <br/>
 
-> Unsupervised pipeline that parses raw system logs into event templates and flags anomalous sequences with a deep learning model, benchmarked against **Isolation Forest** and **PCA** baselines and served through **FastAPI** in **Docker**.
+> AIOps pipeline that turns **15.9M raw log lines** (HDFS and BGL) into event templates with **Drain**, then flags abnormal sessions and time windows. Every alert links back to the log lines behind it.
+
+| 🧩 Parsing accuracy (HDFS) | 🤖 Models benchmarked | ⚡ Streaming F1 (HDFS) | 🧪 Tests |
+|:---:|:---:|:---:|:---:|
+| **0.998** | **7** (rule → PCA → LSTM / Transformer) | **0.982** | **45** |
+
+- 🔒 Chronological 60/20/20 splits; the deep models did not beat simpler methods on the test period, and the README explains why
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-<!-- Replace REPO_NAME once the repo is public:
-👉 [**View repository**](https://github.com/mohnish4code/REPO_NAME)
--->
+👉 [**View repository**](https://github.com/mohnish4code/System-Log-Anomaly-Detection)
 </details>
 
 <details>
@@ -103,9 +114,12 @@ class Mohnish:
 
 | Project | What it does | Stack |
 |---|---|---|
-| 📄 Question Paper Generator | Generates exam papers from course material with RAG | FAISS, Sentence Transformers, Google Gemini, Streamlit |
-| 💳 Credit Risk Prediction | Predicts loan default risk | Scikit-learn, Pandas, NumPy, Streamlit |
-| 📉 Customer Churn Prediction | Predicts which customers will leave | TensorFlow, Neural Networks |
+| 💸 [Expense Tracker](https://github.com/mohnish4code/Expense-Tracker-Project) | Budgets plus ML insights: unusual-expense alerts, overspend prediction, budget recommendations | FastAPI, SQLAlchemy, Scikit-learn, Docker |
+| 🎯 [ATS Resume Scanner](https://github.com/mohnish4code/Resume-Analyser) | Scores a resume against a job description with an explainable 0–100 breakdown | FastAPI, Scikit-learn, TF-IDF |
+| 📄 [Question Paper Generator](https://github.com/mohnish4code/Question-Paper-Generator-using-RAG-and-LLM) | Generates exam papers from course material with RAG | FAISS, Sentence Transformers, Google Gemini, Streamlit |
+| 💳 [Credit Risk Prediction](https://github.com/mohnish4code/Credit-Risk-Prediction-Project) | Predicts loan default risk | Scikit-learn, XGBoost, Streamlit |
+| 📉 [Customer Churn Prediction](https://github.com/mohnish4code/Customer-Churn-Prediction) | Predicts which bank customers will leave | TensorFlow / Keras |
+| 🎓 [Student Performance Prediction](https://github.com/mohnish4code/Student-Performance-Prediction) | Predicts maths scores with a modular training pipeline | Scikit-learn, CatBoost, XGBoost, Flask |
 
 </details>
 
